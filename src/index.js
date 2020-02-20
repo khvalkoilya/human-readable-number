@@ -22,7 +22,7 @@ module.exports = function toReadable (number) {
       } 
     }
     if(arr.length==1){
-      arr[0]==0?str+="zero": str+=digital(arr[0]);
+      str+=digital(arr[0]);
     }
     return str.replace(/\s$/,'');
 }
